@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "joshinitin/gok8scicd"
+       registry = "joshinitin/FirstGoLangProject"
        GOCACHE = "/tmp"
    }
    stages {
